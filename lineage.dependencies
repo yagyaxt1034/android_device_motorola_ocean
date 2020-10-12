@@ -1,6 +1,7 @@
 [
  {
-   "repository": "android_device_motorola_sdm632-common",
-   "target_path": "device/motorola/sdm632-common"
+   "repository": "yagyaxt1034/android_device_motorola_sdm632-common",
+   "target_path": "device/motorola/sdm632-common",
+   "remote": "github"
  }
 ]
