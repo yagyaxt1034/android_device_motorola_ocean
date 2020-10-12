@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# Kernel
+LOCAL_KERNEL := device/motorola/ocean-kernel/Image.gz-dtb
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 
